@@ -1,4 +1,4 @@
 # Certificard
 
-## Portfolio in JS, imersão.dev
+Portfolio about what i learned in imersão.dev
  
