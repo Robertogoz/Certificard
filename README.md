@@ -1,4 +1,4 @@
 # Certificard
 
-My Portfolio about what i learned at imersão.dev
+Some front-end projects about what i learned at Imersao.dev by Alura
  
