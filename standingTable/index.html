@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standings Table</title>
+    <link href="./style.css" rel="stylesheet">
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+    <h1>Tabela de classificação</h1>
+  <input type='text' id="nomeJogador" name="nomeJogador" placeholder="Player Name">
+  <button onclick="adicionarJogador()">Add Player</button>
+  <button onclick="limparNomes()">Clear</button>
+
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Wins</th>
+                <th>Draws</th>
+                <th>Loses</th>
+                <th>Points</th>
+                <th colspan = "3">Actions</th>
+                <th><button onclick="reiniciarTabela()">Restart</button></th>
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+        </tbody>
+    </table>
+</body>
+</html>
