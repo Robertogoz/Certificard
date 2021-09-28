@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 600px;
+    background-image: url('https://i.pinimg.com/originals/b1/c8/ed/b1c8ed8436e05ad85a08e61341d90f6f.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    font-size: 36px;
+    color: #ffffff;
+    margin: 0 0 5px;
+    text-shadow: 3px 4px 5px #000;
+  }
+  
+  .page-subtitle {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 5px;
+    text-shadow: 3px 4px 5px #000;
+    
+  }
+  h2 {
+  color: #ffffff;
+  text-shadow: 3px 4px 5px #000;
+  position: absolute;
+  font-size:26px;
+  font-weight: bold;
+  top: 350px;
+  left: calc(50% - 72.5px);
+  width: 155px;
+  text-align:center;
+  
+  }
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  }
+
+ input {
+   display: block;
+   margin: 20px auto;
+   padding: 10px 15px;
+}
+
+ button {
+    border: 3;
+    border-color: #311432;
+    color: #ffffff;
+    background: #016064;
+    font-style: monospace;
+    font-weight:bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
